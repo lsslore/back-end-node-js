@@ -9,13 +9,18 @@ Se busca que el estudiante practique:
 - Manejo de promesas con **async/await**.
 - Buenas prácticas de código y estructura básica de proyectos.
 
----
-
-## Requerimientos del Proyecto
-
-### Requerimiento #1: Configuración Inicial
+## Requerimiento #1: Configuración Inicial
 - Crear un directorio para alojar el proyecto e incluir un archivo `index.js` como punto de entrada.
 - Iniciar Node.js y configurar npm con:
   ```bash
   npm init -y
+- Agregar  la propiedad "type": "module" en el archivo package.json para habilitar ESModules.
+- Configurar un script llamado start para ejecutar el programa con el comando npm run start.
+
+## Requerimiento #2: Lógica de Gestión de Productos (comandos a probar)
+
+- npm run start GET products  (Consultar Todos los Productos)
+- npm run start GET products/15  (Consultar un Producto Específico)
+- npm run start POST products T-Shirt-Rex 300 remeras  (Crear un Producto Nuevo)
+- npm run start DELETE products/7  (Eliminar un Producto)  
 
