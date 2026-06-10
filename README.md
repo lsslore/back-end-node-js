@@ -2,7 +2,7 @@
 
 ## Objetivo de la Clase
 El objetivo de este proyecto es aprender a **gestionar la lógica de productos a través de GET POST y DELETE** desde la terminal utilizando **Node.js y la API FakeStore**.  
-Se busca que el estudiante practique:
+
 - Uso de **ESModules** en Node.js.
 - Manejo de **argumentos de consola** con `process.argv`.
 - Interacción con una **API externa** usando `fetch`.
@@ -17,7 +17,7 @@ Se busca que el estudiante practique:
 - Agregar  la propiedad "type": "module" en el archivo package.json para habilitar ESModules.
 - Configurar un script llamado start para ejecutar el programa con el comando npm run start.
 
-## Requerimiento #2: Lógica de Gestión de Productos (comandos a probar)
+## Requerimiento #2: Lógica de Gestión de Productos (comandos de prueba)
 
 - npm run start GET products  (Consultar Todos los Productos)
 - npm run start GET products/15  (Consultar un Producto Específico)
