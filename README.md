@@ -1,15 +1,17 @@
 # Proyecto Node.js - Gestión de Productos con FakeStore API
 
 ## Objetivo de la Clase
-El objetivo de este proyecto es aprender a **gestionar la lógica de productos a través de GET POST y DELETE** desde la terminal utilizando **Node.js y la API FakeStore**.  
+El objetivo de este proyecto es aprender a manejar la lógica a través de operaciones con **CRUD (Create, Read, Delete)** desde la terminal utilizando **Node.js y la API FakeStore**.
 
-- Uso de **ESModules** en Node.js.
-- Manejo de **argumentos de consola** con `process.argv`.
-- Interacción con una **API externa** usando `fetch`.
-- Manejo de promesas con **async/await**.
-- Buenas prácticas de código y estructura básica de proyectos.
+- Práctica:
+
+- Uso de `ESModules en Node.js`.
+- Manejo de argumentos de consola con `process.argv`.
+- Interacción con una API externa usando `fetch`.
+- Manejo de promesas con `async/await`.
 
 ## Requerimiento #1: Configuración Inicial
+
 - Crear un directorio para alojar el proyecto e incluir un archivo `index.js` como punto de entrada.
 - Iniciar Node.js y configurar npm con:
   ```bash
@@ -22,5 +24,4 @@ El objetivo de este proyecto es aprender a **gestionar la lógica de productos a
 - npm run start GET products  (Consultar Todos los Productos)
 - npm run start GET products/15  (Consultar un Producto Específico)
 - npm run start POST products T-Shirt-Rex 300 remeras  (Crear un Producto Nuevo)
-- npm run start DELETE products/7  (Eliminar un Producto)  
-
+- npm run start DELETE products/7  (Eliminar un Producto)
