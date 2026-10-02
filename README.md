@@ -1,4 +1,4 @@
-# Proyecto Node.js - Gestión de Productos con FakeStore API
+# Proyecto Node.js - Gestión de Productos con FakeStore API - Talento Tech 
 
 ## Objetivo de la Clase
 El objetivo de este proyecto es aprender a manejar la lógica a través de operaciones con **CRUD (Create, Read, Delete)** desde la terminal utilizando **Node.js y la API FakeStore**.
